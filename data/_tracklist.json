@@ -1,0 +1,54 @@
+{
+	"tracks": [
+
+		{
+			"url": "https://ia902506.us.archive.org/7/items/ToZanarkandpiano/ToZanarkand.mp3",
+			"title": "Prelude",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "Black Sands",
+			"year": "2010"
+		},
+		{
+			"url": "assets/track2.mp3",
+			"title": "Kiara",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "Black Sands",
+			"year": "2010"
+		},
+		{
+			"url": "assets/track3.mp3",
+			"title": "Eyesdown (Featuring Andreya Triana)",
+			"artist": "Bonobo",
+			"genre": "Electronic",
+			"album": "Black Sands",
+			"year": "2010"
+		},
+		{
+			"url": "assets/track4.mp3",
+			"title": "john thomas on the inside is noth",
+			"artist": "Telephone Tel Aviv",
+			"genre": "Electronic",
+			"album": "Fahrenheit fair enough",
+			"year": "2001"
+		},
+		{
+			"url": "assets/track5.mp3",
+			"title": "life is all about taking things i",
+			"artist": "Telephone Tel Aviv",
+			"genre": "Electronic",
+			"album": "Fahrenheit fair enough",
+			"year": "2001"
+		},
+		{
+			"url": "assets/track6.mp3",
+			"title": "your face reminds me of when i was young",
+			"artist": "Telephone Tel Aviv",
+			"genre": "Electronic",
+			"album": "Fahrenheit fair enough",
+			"year": "2001"
+		}
+
+	]
+}

@@ -1,0 +1,348 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M480 704h-480v256h960v-256h-480zM896 832h-128v-64h128v64zM224 320l256-256 256 256h-160v320h-192v-320z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"upload",
+					"load",
+					"open"
+				],
+				"defaultCode": 58049,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1715,
+				"order": 34,
+				"prevSize": 32,
+				"code": 59848,
+				"ligatures": "upload3, load3",
+				"name": "upload"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M192 1024h640l64-704h-768zM640 128v-128h-256v128h-320v192l64-64h768l64 64v-192h-320zM576 128h-128v-64h128v64z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"bin",
+					"trashcan",
+					"remove",
+					"delete",
+					"recycle",
+					"dispose"
+				],
+				"defaultCode": 57935,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1716,
+				"order": 35,
+				"prevSize": 32,
+				"code": 59821,
+				"ligatures": "bin2, trashcan2",
+				"name": "bin"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M992 384h-352v-352c0-17.672-14.328-32-32-32h-192c-17.672 0-32 14.328-32 32v352h-352c-17.672 0-32 14.328-32 32v192c0 17.672 14.328 32 32 32h352v352c0 17.672 14.328 32 32 32h192c17.672 0 32-14.328 32-32v-352h352c17.672 0 32-14.328 32-32v-192c0-17.672-14.328-32-32-32z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"plus",
+					"add",
+					"sum"
+				],
+				"defaultCode": 58230,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1717,
+				"order": 36,
+				"prevSize": 32,
+				"code": 59914,
+				"ligatures": "plus, add",
+				"name": "plus"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M192 128l640 384-640 384z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"play",
+					"player"
+				],
+				"defaultCode": 58245,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1718,
+				"order": 37,
+				"prevSize": 32,
+				"code": 59932,
+				"ligatures": "play3, player8",
+				"name": "play"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 3
+		},
+		{
+			"icon": {
+				"paths": [
+					"M128 128h320v768h-320zM576 128h320v768h-320z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"pause",
+					"player"
+				],
+				"defaultCode": 58246,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1719,
+				"order": 38,
+				"prevSize": 32,
+				"code": 59933,
+				"ligatures": "pause2, player9",
+				"name": "pause"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 4
+		},
+		{
+			"icon": {
+				"paths": [
+					"M128 128h768v768h-768z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"stop",
+					"player",
+					"square"
+				],
+				"defaultCode": 58247,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1720,
+				"order": 39,
+				"prevSize": 32,
+				"code": 59934,
+				"ligatures": "stop2, player10",
+				"name": "stop"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 5
+		},
+		{
+			"icon": {
+				"paths": [
+					"M256 896v-768h128v352l320-320v704l-320-320v352z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"previous",
+					"player"
+				],
+				"defaultCode": 58252,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1721,
+				"order": 40,
+				"prevSize": 32,
+				"code": 59939,
+				"ligatures": "previous2, player15",
+				"name": "previous"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 6
+		},
+		{
+			"icon": {
+				"paths": [
+					"M768 128v768h-128v-352l-320 320v-704l320 320v-352z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"next",
+					"player"
+				],
+				"defaultCode": 58253,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1722,
+				"order": 41,
+				"prevSize": 32,
+				"code": 59940,
+				"ligatures": "next2, player16",
+				"name": "next"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 7
+		},
+		{
+			"icon": {
+				"paths": [
+					"M890.040 922.040c-12.286 0-24.566-4.686-33.942-14.056-18.744-18.746-18.744-49.136 0-67.882 87.638-87.642 135.904-204.16 135.904-328.1 0-123.938-48.266-240.458-135.904-328.098-18.744-18.746-18.744-49.138 0-67.882s49.138-18.744 67.882 0c105.77 105.772 164.022 246.4 164.022 395.98s-58.252 290.208-164.022 395.98c-9.372 9.372-21.656 14.058-33.94 14.058zM719.53 831.53c-12.286 0-24.566-4.686-33.942-14.056-18.744-18.744-18.744-49.136 0-67.882 131.006-131.006 131.006-344.17 0-475.176-18.744-18.746-18.744-49.138 0-67.882 18.744-18.742 49.138-18.744 67.882 0 81.594 81.59 126.53 190.074 126.53 305.466 0 115.39-44.936 223.876-126.53 305.47-9.372 9.374-21.656 14.060-33.94 14.060v0zM549.020 741.020c-12.286 0-24.568-4.686-33.942-14.058-18.746-18.746-18.746-49.134 0-67.88 81.1-81.1 81.1-213.058 0-294.156-18.746-18.746-18.746-49.138 0-67.882s49.136-18.744 67.882 0c118.53 118.53 118.53 311.392 0 429.922-9.372 9.368-21.656 14.054-33.94 14.054z",
+					"M416.006 960c-8.328 0-16.512-3.25-22.634-9.374l-246.626-246.626h-114.746c-17.672 0-32-14.326-32-32v-320c0-17.672 14.328-32 32-32h114.746l246.626-246.628c9.154-9.154 22.916-11.89 34.874-6.936 11.958 4.952 19.754 16.622 19.754 29.564v832c0 12.944-7.796 24.612-19.754 29.564-3.958 1.64-8.118 2.436-12.24 2.436z"
+				],
+				"width": 1088,
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"volume-high",
+					"volume",
+					"audio",
+					"speaker",
+					"player"
+				],
+				"defaultCode": 58255,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1723,
+				"order": 42,
+				"prevSize": 32,
+				"code": 59942,
+				"ligatures": "volume-high, volume",
+				"name": "volume-high"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 8
+		},
+		{
+			"icon": {
+				"paths": [
+					"M416.006 960c-8.328 0-16.512-3.25-22.634-9.374l-246.626-246.626h-114.746c-17.672 0-32-14.326-32-32v-320c0-17.672 14.328-32 32-32h114.746l246.626-246.628c9.154-9.154 22.916-11.89 34.874-6.936 11.958 4.952 19.754 16.622 19.754 29.564v832c0 12.944-7.796 24.612-19.754 29.564-3.958 1.64-8.118 2.436-12.24 2.436z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"volume-mute",
+					"volume",
+					"audio",
+					"speaker",
+					"player"
+				],
+				"defaultCode": 58258,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"order": 43,
+				"id": 1724,
+				"prevSize": 32,
+				"code": 59945,
+				"ligatures": "volume-mute, volume4",
+				"name": "volume-mute"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 9
+		},
+		{
+			"icon": {
+				"paths": [
+					"M768 704h-101.49l-160-160 160-160h101.49v160l224-224-224-224v160h-128c-16.974 0-33.252 6.744-45.254 18.746l-178.746 178.744-178.746-178.746c-12-12-28.28-18.744-45.254-18.744h-192v128h165.49l160 160-160 160h-165.49v128h192c16.974 0 33.252-6.742 45.254-18.746l178.746-178.744 178.746 178.744c12.002 12.004 28.28 18.746 45.254 18.746h128v160l224-224-224-224v160z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"shuffle",
+					"random",
+					"player"
+				],
+				"defaultCode": 58282,
+				"grid": 16
+			},
+			"attrs": [],
+			"properties": {
+				"id": 1725,
+				"order": 44,
+				"prevSize": 32,
+				"code": 59952,
+				"ligatures": "shuffle, random",
+				"name": "shuffle"
+			},
+			"setIdx": 1,
+			"setId": 1,
+			"iconIdx": 10
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			}
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": true
+	}
+}

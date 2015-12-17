@@ -1,0 +1,243 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-58jh0x");
+  src: url("../fonts/icomoon.eot?#iefix-58jh0x") format("embedded-opentype"), url("../fonts/icomoon.woff?-58jh0x") format("woff"), url("../fonts/icomoon.ttf?-58jh0x") format("truetype"), url("../fonts/icomoon.svg?-58jh0x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-upload:before {
+  content: "\e9c8"; }
+
+.icon-bin:before {
+  content: "\e9ad"; }
+
+.icon-plus:before {
+  content: "\ea0a"; }
+
+.icon-play:before {
+  content: "\ea1c"; }
+
+.icon-pause:before {
+  content: "\ea1d"; }
+
+.icon-stop:before {
+  content: "\ea1e"; }
+
+.icon-previous:before {
+  content: "\ea23"; }
+
+.icon-next:before {
+  content: "\ea24"; }
+
+.icon-volume-high:before {
+  content: "\ea26"; }
+
+.icon-volume-mute:before {
+  content: "\ea29"; }
+
+.icon-shuffle:before {
+  content: "\ea30"; }
+
+.slider {
+  position: relative; }
+  .slider .track {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden; }
+  .slider .thumb {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px; }
+
+.timeline {
+  width: 100%;
+  height: 35px; }
+  .timeline .track {
+    background: #eaeaea; }
+  .timeline .thumb {
+    width: 5px;
+    background: #ff5425; }
+  .timeline.active .thumb {
+    background: #f63500; }
+
+.volume-slider {
+  display: inline-block;
+  width: 50px;
+  height: 10px; }
+  .volume-slider .track {
+    background: #eaeaea; }
+  .volume-slider .thumb {
+    width: 10px;
+    background: #ff5425; }
+  .volume-slider.active .thumb {
+    background: #f63500; }
+
+#playerView {
+  width: 700px;
+  padding: 15px 50px 50px 50px;
+  margin: 0 auto; }
+
+#playerControls {
+  margin: 12px 0; }
+  #playerControls button {
+    padding: 6px 8px;
+    background: #ff5425;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    vertical-align: bottom; }
+    #playerControls button:hover, #playerControls button:focus {
+      background: #ff7049;
+      color: white; }
+    #playerControls button:active, #playerControls button:focus {
+      outline: 0; }
+    #playerControls button.disabled {
+      opacity: 0.6;
+      pointer-events: none; }
+    #playerControls button > i {
+      margin-right: 5px;
+      font-size: 18px;
+      vertical-align: middle;
+      display: inline-block;
+      height: 19px; }
+    #playerControls button.active {
+      color: #25d0ff;
+      background: #f13400; }
+  #playerControls .buttons {
+    display: inline-block;
+    float: left; }
+  #playerControls .volume {
+    display: inline-block;
+    float: right;
+    margin-left: 18px;
+    margin-top: 8px; }
+
+#playlistView ul {
+  list-style: none; }
+#playlistView li {
+  display: block;
+  width: 96%;
+  margin: 10px 0;
+  padding: 5px 7px;
+  line-height: 1.7em;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none; }
+  #playlistView li img {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px; }
+  #playlistView li .second-row {
+    display: inline-block;
+    padding-left: 16px; }
+  #playlistView li.active {
+    width: 92%;
+    border-left: 5px solid #ff5425;
+    background: #fff1ed;
+    margin-left: 10px;
+    padding-left: 10px; }
+    #playlistView li.active:hover {
+      background: #fff1ed; }
+  #playlistView li:hover {
+    background: #eee; }
+
+.playlist-wrap {
+  padding: 5px 60px; }
+  .playlist-wrap > div {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #ddd; }
+    .playlist-wrap > div header {
+      padding: 8px 16px;
+      background: #25d0ff;
+      color: white;
+      overflow: hidden; }
+      .playlist-wrap > div header h2 {
+        margin: 0;
+        display: inline-block;
+        float: left;
+        line-height: 1.5; }
+    .playlist-wrap > div:last-child {
+      margin-left: 8%; }
+  .playlist-wrap #playlistView header .wrap-right {
+    display: inline-block;
+    float: right; }
+  .playlist-wrap #playlistView header #drop-delete, .playlist-wrap #playlistView header #drop-load {
+    padding: 6px 8px;
+    display: inline-block;
+    margin: 0 6px;
+    border-radius: 5px;
+    border: 3px dashed white;
+    opacity: 0.5;
+    transition: all 0.4s ease; }
+    .playlist-wrap #playlistView header #drop-delete:before, .playlist-wrap #playlistView header #drop-load:before {
+      font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin-right: 9px; }
+    .playlist-wrap #playlistView header #drop-delete.enabled, .playlist-wrap #playlistView header #drop-load.enabled {
+      opacity: 1; }
+    .playlist-wrap #playlistView header #drop-delete.hovered, .playlist-wrap #playlistView header #drop-load.hovered {
+      border-color: #ff5425;
+      color: #ff5425; }
+  .playlist-wrap #playlistView header #drop-delete:before {
+    content: "\e9ad"; }
+  .playlist-wrap #playlistView header #drop-load:before {
+    content: "\e9c8"; }
+  .playlist-wrap #playlist-ul {
+    margin: 0;
+    padding: 0 12px;
+    max-height: 270px;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+
+.dragging {
+  opacity: 0.8; }
+  .dragging.delete {
+    background: red !important; }
+
+.placeholder {
+  background: #ccc;
+  border: 2px dashed #999; }
+
+#spectrumView {
+  text-align: center;
+  padding: 10px 0; }
+
+.padding {
+  padding: 14px; }
+
+.progress {
+  position: absolute;
+  background: #ffdcd3;
+  height: 100%;
+  width: 10%; }

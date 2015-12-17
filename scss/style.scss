@@ -1,0 +1,214 @@
+@import "variables";
+@import "mixins";
+
+@import "fonts";
+@import "slider";
+
+
+#playerView{
+
+  width : 700px;
+  padding: 15px 50px 50px 50px;
+  margin: 0 auto;
+
+}
+
+#playerControls{
+
+  margin: 12px 0;
+
+  button{
+    @include btn($cl-main);
+
+    vertical-align: bottom;
+
+    > i{
+      margin-right: 5px;
+      font-size: 18px;
+      vertical-align: middle;
+      display: inline-block;
+      height: 19px;
+    }
+
+    &.active{
+      color: complement($cl-main);
+      background: darken($cl-main, 10);
+    }
+  }
+
+  .buttons{
+    display: inline-block;
+    float:left;
+  }
+
+  .volume{
+    display: inline-block;
+    float: right;
+    margin-left: 18px;
+    margin-top: 8px;
+  }
+
+}
+
+#playlistView{
+
+  ul{ list-style: none; }
+
+  li{
+    display: block;
+    width: 96%;
+    margin: 10px 0;
+    padding: 5px 7px;
+    line-height: 1.7em;
+    cursor: pointer;
+
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    user-select:none;
+
+    img{
+      width: 56px; height: 56px;
+      display: inline-block;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .second-row{
+      display: inline-block;
+      padding-left: 16px;
+    }
+
+    &.active{
+      width: 92%;
+      border-left: 5px solid $cl-main;
+      background: tint($cl-main, 92%);
+      margin-left: 10px;
+      padding-left: 10px;
+
+      &:hover{ background: tint($cl-main, 92%); }
+    }
+
+    &:hover{
+      background: #eee;
+    }
+  }
+}
+
+
+.playlist-wrap{
+
+  padding: 5px 60px;
+
+  > div{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #ddd;
+
+    header{
+      padding: 8px 16px;
+      background: complement($cl-main);
+      color: white;
+      overflow: hidden;
+
+      h2{
+        margin: 0;
+        display: inline-block;
+        float: left;
+        line-height: 1.5;
+      }
+    }
+
+    &:last-child{ margin-left: 8%; }
+  }
+
+  #playlistView{
+
+    header{
+      .wrap-right{
+        display: inline-block;
+        float: right;
+      }
+
+      #drop-delete, #drop-load{
+        padding: 6px 8px;
+        display: inline-block;
+        margin: 0 6px;
+        border-radius: 5px;
+        border: 3px dashed white;
+        opacity: 0.5;
+        transition: all 0.4s ease;
+        &:before{
+          font-family: 'icomoon';
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          margin-right: 9px;
+        }
+
+        &.enabled{
+          opacity: 1;
+        }
+
+        &.hovered{
+          border-color: $cl-main;
+          color: $cl-main;
+        }
+      }
+
+      #drop-delete:before{
+        content: "\e9ad";
+      }
+
+      #drop-load:before{
+        content: "\e9c8";
+      }
+    }
+  }
+
+  #playlist-ul{
+    margin: 0;
+    padding: 0 12px;
+    max-height: 270px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+
+
+.dragging{
+  opacity: 0.8;
+
+  &.delete{
+    background: red !important;
+  }
+}
+
+.placeholder{
+  background: #ccc;
+  border: 2px dashed #999;
+}
+
+
+#spectrumView{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.padding{
+  padding: 14px;
+}
+
+.progress{
+  position: absolute;
+  background: tint($cl-main, 80);
+  height: 100%;
+  width: 10%;
+}

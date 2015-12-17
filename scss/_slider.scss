@@ -1,0 +1,16 @@
+
+
+
+
+.slider{
+  @include slider();
+}
+
+.timeline{
+  @include slider-style(100%, 35px, 5px, $cl-slider-bg, $cl-slider, $cl-slider-active);
+}
+
+.volume-slider{
+  display: inline-block;
+  @include slider-style(50px, 10px, 10px, $cl-slider-bg, $cl-slider, $cl-slider-active);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Element</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="vendor/normalize.css"/>
+    <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="scss/style.css"/>
+</head>
+
+<script id="playlist-template" type="text/x-handlebars-template">
+    <header>
+        <h2>Playlist</h2>
+        <div class="wrap-right">
+            <div id="drop-load">Load</div>
+            <div id="drop-delete">Delete</div>
+        </div>
+    </header>
+    <ul id="playlist-ul">
+        {{#each this}}
+            <li id="track-{{id}}">
+                <div class="first-row"><b>{{artist}}:</b> {{title}}</div>
+                <div class="second-row">{{album}}  <i>({{genre}})</i></div>
+            </li>
+        {{/each}}
+    </ul>
+</script>
+
+<script id="detail-template" type="text/x-handlebars-template">
+    <header>
+        <h2>Detail (metadata)</h2>
+    </header>
+    <div class="padding">
+        <h3>{{title}}</h3>
+        <h4>{{artist}}</h4>
+        <p>{{album}}</p>
+        <p>{{genre}}</p>
+        <p>{{year}}</p>
+    </div>
+</script>
+
+
+
+<body>
+
+
+<div id="spectrumView">
+    <canvas id='canvas' width="800" height="100"></canvas>
+</div>
+
+<div id="playerView">
+    <div id="duration">
+        <span class="current-time">00:00</span> /
+        <span class="total-time">00:00</span>
+    </div>
+    <div class="slider timeline" data-min="0" data-max="1" data-value="0"></div>
+
+    <div id="playerControls">
+        <div class="buttons">
+            <button id="btnPlay"><i class="icon-play"></i>Play</button>
+            <button id="btnStop"><i class="icon-stop"></i>Stop</button>
+            <button id="btnPrev"><i class="icon-previous"></i>Prev</button>
+            <button id="btnNext"><i class="icon-next"></i>Next</button>
+            <button id="btnShuffle"><i class="icon-shuffle"></i>Shuffle</button>
+        </div>
+
+        <div class="volume">
+            <i class="icon-volume-mute"></i>
+            <div class="slider volume-slider" data-min="0" data-max="1" data-value="0"> </div>
+            <i class="icon-volume-high"></i>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="playlist-wrap">
+    <div id="playlistView">
+
+    </div>
+
+    <div id="detailView">
+
+    </div>
+</div>
+
+
+
+
+<p id="output"></p>
+
+<script src="vendor/jquery-2.1.0.js"></script>
+<script src="vendor/handlebars-v3.0.0.js"></script>
+<script src="vendor/underscore-1.8.2.js"></script>
+<script src="vendor/id3-reader.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/lib.js"></script>
+
+<script src="js/model.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/views.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
