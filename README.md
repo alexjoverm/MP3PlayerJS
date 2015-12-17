@@ -17,11 +17,8 @@ git clone https://github.com/alexjoverm/SimpleMVC.git
  * *track6.mp3*
 
 * Install `node` and `gulp` if you don't have them
-* Run following commands
+* Run following command to launch the app
 
 ```bash
-npm install 
 gulp
 ```
-
-The app should run in the browser automatically.
