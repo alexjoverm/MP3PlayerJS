@@ -1,4 +1,4 @@
-# Simple MVC
+# MP3PlayerJS
 
 ![img](https://github.com/alexjoverm/MP3PlayerJS/blob/master/screenshot.png)
 
