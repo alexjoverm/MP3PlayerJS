@@ -24,7 +24,7 @@ var player = window.player || {};
                 that._model.init();
             });
         }
-    }
+    };
 
 
     ns.PlayerController = PlayerController;

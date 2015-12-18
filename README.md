@@ -1,11 +1,13 @@
 # Simple MVC
 
+![img](https://github.com/alexjoverm/MP3PlayerJS/blob/master/screenshot.png)
+
 ### Steps to test
 
 * Download repository
 
 ```
-git clone https://github.com/alexjoverm/SimpleMVC.git
+git clone https://github.com/alexjoverm/MP3PlayerJS.git
 ```
 
 * Put 6 `.mp3` files into `assets` folder, with the concurrent following names: 

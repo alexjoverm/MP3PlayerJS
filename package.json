@@ -1,0 +1,11 @@
+{
+  "name": "SimpleMVC",
+  "version": "0.0.1",
+  "author": "Alex Jover Morales <alexjovermorales@gmail.com>",
+  "devDependencies": {
+    "gulp": "~3.8.0",
+    "gulp-connect": "~2.0.0",
+    "gulp-watch": "~4.3.0"
+  }
+}
+  

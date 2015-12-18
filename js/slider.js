@@ -2,8 +2,8 @@
 	"use strict";
 
 	$.fn.slider = function(config) {
-		//this = jQuery object
 
+        // Create object
 		function Slider(config) {
 			var _$view = config.view;
 
@@ -12,7 +12,7 @@
 			var _$track = _$view.find('.track');
 			var _$thumb = _$view.find('.thumb');
 
-			//check config
+			// Check config and provide default values
 			var _value = (isNaN(config.value) ? 0 : config.value);
 			var _minValue = (isNaN(config.min) ? 0 : config.min);
 			var _maxValue = (isNaN(config.max) ? 100 : config.max);
